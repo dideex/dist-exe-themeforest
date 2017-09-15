@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Music</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,800|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/libs.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<header id="header">
+		<div class="top-menu">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-6 col-md-5">
+						<div class="row align-items-center">
+							<div class="lang col-4">
+								<span>English</span>
+							</div>
+							<div class="phone col-4">
+								<a href="tel:72345678912">+723 45678912</a>
+							</div>
+							<div class="email col-4">
+								<a href="mailto:info@fl.ru">info@fl.ru</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-0 col-md-2"></div>
+					<div class="col-6 col-md-5">
+						<div class="row align-items-center">
+							<div class="login col-6 col-md-4">
+								<span id="sign-in">Sign In</span>
+								<a href="#" class="register">/ Register</a>
+							</div>
+							<div class="whish-list col-6 col-md-4">
+								<span>Wishlist:</span>
+								<span id="view-wish-items">0 items</span>
+							</div>
+							<div class="social col-md-4">
+								<a href="#"><i class="fa fa-facebook-square"></i></a>
+								<a href="#"><i class="fa fa-twitter-square"></i></a>
+								<a href="#"><i class="fa fa-linkedin-square"></i></a>
+								<a href="#"><i class="fa fa-google-plus-square"></i></a>
+								<a href="#"><i class="fa fa-tumblr-square"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menu">
+			<div class="container">
+				<div class="mobile-menu">
+					<div class="row align-items-center">
+						<div class="collapse" id="navbarToggle">
+							<div class="p-4">
+								<ul>
+									<li>Menu 1</li>
+									<li>Menu 2</li>
+									<li>Menu 3</li>
+									<li>Menu 4</li>
+									<li>Menu 5</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="row align-items-center justify-content-around">
+						<div class="col-4">
+							<i class="fa fa-search"></i>
+						</div>
+						<div class="logo col-4">
+							<img src="img/icons/logo.png" class="img-fluid" alt="">
+						</div>
+						<nav class="col-4 navbar navbar-light">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+						</nav>
+					</div>
+					<div class="row align-items-center justify-content-center">
+						<div class="col-2">
+							<i class="fa fa-heart"></i>
+						</div>
+						<div class="col-2 cart">
+							<i class="fa fa-shopping-basket"><sup>3</sup></i>
+						</div>
+					</div>
+				</div>
+				<div class="row align-items-center pc-menu">
+					<div class="logo col">
+						<img src="img/icons/logo.png" class="img-fluid" alt="">
+					</div>
+					<div class="col-8" id="inputLayer">
+						<div class="dropdown-search animated fadeInDown">
+							<input type="text" id="input-search" placeholder="Type text here...">
+							<label id="closeSearch" for="input-search"><i class="fa fa-times" aria-hidden="true"></i></label>
+						</div>
+						<nav class="menu-items justify-content-between align-items-center">
+							<a href="#" class="col submenu">Home
+								<span class="dropdown">
+									<ul>
+										<li>Submenu link 1</li>
+										<li>Submenu link 2</li>
+										<li>Submenu link 3</li>
+										<li>Submenu link 4</li>
+										<li>Submenu link 5</li>
+									</ul>
+								</span>
+							</a>
+							<a href="#" class="col">About us</a>
+							<a href="#" class="col submenu">Pages
+								<span class="dropdown">
+									<ul>
+										<li>Submenu link 1</li>
+										<li>Submenu link 2</li>
+										<li>Submenu link 3</li>
+										<li>Submenu link 4</li>
+										<li>Submenu link 5</li>
+									</ul>
+								</span>
+							</a>
+							<a href="#" class="col submenu">Features
+								<span class="dropdown">
+									<ul>
+										<li>Submenu link 1</li>
+										<li>Submenu link 2</li>
+										<li>Submenu link 3</li>
+										<li>Submenu link 4</li>
+										<li>Submenu link 5</li>
+									</ul>
+								</span>
+							</a>
+							<a href="#" class="col">Portfolio</a>
+							<a href="#" class="col">Blog</a>
+							<a href="#" class="col submenu">Shop
+								<span class="dropdown">
+									<ul>
+										<li>Submenu link 1</li>
+										<li>Submenu link 2</li>
+										<li>Submenu link 3</li>
+										<li>Submenu link 4</li>
+										<li>Submenu link 5</li>
+									</ul>
+								</span>
+							</a>
+							<a href="#" class="col">Contat us</a>
+						</nav>
+					</div>
+					<div class="cart col">
+						<span>Cart:</span>
+						<i class="fa fa-shopping-basket"><sup>3</sup></i>
+						<i class="fa fa-search" id="searchBtn"></i>
+					</div>
+				</div>
+				<div class="dropdown-cart">
+				</div>
+			</div>
+		</div>
+		<div class="body">
+			<div class="arrow-btn-p" id="prev"></div>
+			<div class="arrow-btn-p" id="next"></div>
+			<div class="body-slider owl-carousel" id="bodySlider">
+				<div class="slide slide1">
+					<div class="cotainer">
+						<div class="row justify-content-center">
+							<div class="col">
+								<h1 class="h1 animated">Clean & Unique<br>Everything You Need is Here</h1>
+								<span class="body-disc animated">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</span>
+								<div class="body-buttons animated">
+									<div class="btn-black animated">Buy this now</div>
+									<div class="btn-trans animated"> Screenshot</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide slide2">
+					<div class="cotainer">
+						<div class="row justify-content-center">
+							<div class="col-auto col-md-6"></div>
+							<div class="col-md-6 col-10">
+								<h1 class="h1 animated">Smart Moves</h1>
+								<h2 class="h2 animated">of <span>Successful</span> Buisness</h2>
+								<span class="body-disc animated">Free updates & supprot included</span>
+								<div class="body-buttons">
+									<div class="btn-accent animated">Buy a theme</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide slide3">
+					<div class="cotainer">
+						<div class="row justify-content-center">
+							<div class="col-10 col-md-7">
+								<h1 class="h1 animated">Smart Moves</h1>
+								<h2 class="h2 animated">of <span>Successful</span> Buisness</h2>
+								<span class="body-disc animated">The EXE Theme - a great and useful<br>tool for your next website</span>
+								<div class="body-buttons">
+									<div class="btn-accent animated">Purchase theme</div>
+								</div>
+							</div>
+							<div class="col-5"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="slider-progress">
+				<div id="load"></div>
+			</div>
+		</div>
+		<div class="body-footer">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col">
+						<h2 class="h2">The Best Solution for Your Business Projects</h2>
+						<div class="body-footer-disc">Qualitative PSD Template With Unlimited Possibilities</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="arrow-button fadeOutDown animated"></div>
+	</header>
+
+	<section id="benefits" class="animated op">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-3">
+					<div class="benefits-icon-wrap">
+						<img src="img/icons/11.png" class="img-fluid" alt="">
+						<div class="hover-pulse"></div>
+					</div>
+					<h3 class="h3">Clean Design</h3>
+					<div class="benefits-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, repudiandae.</div>
+				</div>
+				<div class="col-12 col-md-3">
+					<div class="benefits-icon-wrap">
+						<img src="img/icons/22.png" alt="">
+						<div class="hover-pulse"></div>
+					</div>
+					<h3 class="h3">Branding</h3>
+					<div class="benefits-disc">Lorem ipsum dolor sit amet, consectetur.</div>
+				</div>
+				<div class="col-12 col-md-3">
+					<div class="benefits-icon-wrap">
+						<img src="img/icons/33.png" alt="">
+						<div class="hover-pulse"></div>
+					</div>
+					<h3 class="h3">Responsive</h3>
+					<div class="benefits-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nisi consequuntur reiciendis quisquam assumenda ad!</div>
+				</div>
+				<div class="col-12 col-md-3">
+					<div class="benefits-icon-wrap">
+						<img src="img/icons/44.png" alt="">
+						<div class="hover-pulse"></div>
+					</div>
+					<h3 class="h3">Development</h3>
+					<div class="benefits-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, excepturi.</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="portfolio animated op" id="portfolio">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col portfolio-header">
+					<h3 class="h3">Our Portfolio</h3>
+					<span class="portfolio-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic tenetur eius, porro quod impedit, totam.</span>
+				</div>
+			</div>
+		</div>
+		<div class="container mobile-menu">
+			<div class="row justify-content-center">
+				<div class="col-3 arrow-btn" id="mPortPrev"></div>
+				<div class="col-3 arrow-btn" id="mPortNext"></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row justify-content-center portfolio-layout">
+				<div class="col-9">
+					<div class="row portfolio-menu align-items-center">
+						<div class="box" id="box"></div>
+						<div class="box2" id="box2"></div>
+						<div class="col arrow-btn" id="portfolioPrev"></div>
+						<div type="button" class="col portfolio-menu-item" id="first" data-filter="all">All</div>
+						<div type="button" class="col portfolio-menu-item" data-filter="type1">Websites</div>
+						<div type="button" class="col portfolio-menu-item" data-filter="type2">Logo</div>
+						<div type="button" class="col portfolio-menu-item" data-filter="type3">Graphic desgin</div>
+						<div type="button" class="col portfolio-menu-item" data-filter="type4">Development</div>
+						<div type="button" class="col portfolio-menu-item" data-filter="type5">Video</div>
+						<div type="button" class="col portfolio-menu-item" data-filter="type6">Photography</div>
+						<div class="col arrow-btn" id="portfolioNext"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio-items owl-carousel" id="portfolioSlider">
+			<div class="portfolio-item all type1" style="background-image: url('img/portfolio/1.jpg');">
+				<div class="hidden">
+					<div class="item-disc-wrap">
+						<h4 class="h4">Claritas Est Processus</h4>
+						<div class="item-disc">Graphic Desginer. Photoshop</div>
+					</div>
+					<div class="buttons">
+						<div data-mfp-src="#item1" class="circle-btn search-btn open-popup-link">
+							<div class="hover-pulse"></div>
+						</div>
+						<div class="circle-btn chain-btn">
+							<div class="hover-pulse"></div>
+						</div>
+					</div>
+				</div>
+				<div class="mfp-hide white-popup" id="item1">
+					<img src="img/portfolio/1.jpg" alt="">
+					<span class="portfolio-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse aut, possimus ad rem temporibus nihil aspernatur vitae? Velit sapiente cupiditate modi incidunt doloremque natus dignissimos blanditiis explicabo a, enim voluptas et nam alias repellendus consectetur repellat, non sint facere deleniti inventore. Tempora magnam eveniet unde saepe possimus sed. Aliquid a, quod optio deserunt ipsum minima consectetur vel repudiandae, reiciendis harum laboriosam. Rem maiores consectetur, eos? Molestias, praesentium, magnam. Consectetur rerum sed nam placeat sit! Quo consectetur, at cum aliquam porro.</span>
+					<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+				</div>
+			</div>
+			<div class="portfolio-item all type2 type1" style="background-image: url('img/portfolio/2.jpg');">
+				<div class="hidden">
+					<div class="item-disc-wrap">
+						<h4 class="h4">Claritas Est Processus</h4>
+						<div class="item-disc">Graphic Desginer. Photoshop</div>
+					</div>
+					<div class="buttons">
+						<div data-mfp-src="#item2" class="circle-btn search-btn open-popup-link">
+							<div class="hover-pulse"></div>
+						</div>
+						<div class="circle-btn chain-btn">
+							<div class="hover-pulse"></div>
+						</div>
+					</div>
+				</div>
+				<div class="mfp-hide white-popup" id="item2">
+					<img src="img/portfolio/2.jpg" alt="">
+					<span class="portfolio-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse aut, possimus ad rem temporibus nihil aspernatur vitae? Velit sapiente cupiditate modi incidunt doloremque natus dignissimos blanditiis explicabo a, enim voluptas et nam alias repellendus consectetur repellat, non sint facere deleniti inventore. Tempora magnam eveniet unde saepe possimus sed. Aliquid a, quod optio deserunt ipsum minima consectetur vel repudiandae, reiciendis harum laboriosam. Rem maiores consectetur, eos? Molestias, praesentium, magnam. Consectetur rerum sed nam placeat sit! Quo consectetur, at cum aliquam porro.</span>
+					<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+				</div>
+			</div>
+			<div class="portfolio-item all type3 type2" style="background-image: url('img/portfolio/3.jpg');">
+				<div class="hidden">
+					<div class="item-disc-wrap">
+						<h4 class="h4">Claritas Est Processus</h4>
+						<div class="item-disc">Graphic Desginer. Photoshop</div>
+					</div>
+					<div class="buttons">
+						<div data-mfp-src="#item3" class="circle-btn search-btn open-popup-link">
+							<div class="hover-pulse"></div>
+						</div>
+						<div class="circle-btn chain-btn">
+							<div class="hover-pulse"></div>
+						</div>
+					</div>
+				</div>
+				<div class="mfp-hide white-popup" id="item3">
+					<img src="img/portfolio/3.jpg" alt="">
+					<span class="portfolio-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse aut, possimus ad rem temporibus nihil aspernatur vitae? Velit sapiente cupiditate modi incidunt doloremque natus dignissimos blanditiis explicabo a, enim voluptas et nam alias repellendus consectetur repellat, non sint facere deleniti inventore. Tempora magnam eveniet unde saepe possimus sed. Aliquid a, quod optio deserunt ipsum minima consectetur vel repudiandae, reiciendis harum laboriosam. Rem maiores consectetur, eos? Molestias, praesentium, magnam. Consectetur rerum sed nam placeat sit! Quo consectetur, at cum aliquam porro.</span>
+					<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+				</div>
+			</div>
+			<div class="portfolio-item all type5 type6" style="background-image: url('img/portfolio/4.jpg');">
+				<div class="hidden">
+					<div class="item-disc-wrap">
+						<h4 class="h4">Claritas Est Processus</h4>
+						<div class="item-disc">Graphic Desginer. Photoshop</div>
+					</div>
+					<div class="buttons">
+						<div data-mfp-src="#item4" class="circle-btn search-btn open-popup-link">
+							<div class="hover-pulse"></div>
+						</div>
+						<div class="circle-btn chain-btn">
+							<div class="hover-pulse"></div>
+						</div>
+					</div>
+				</div>
+				<div class="mfp-hide white-popup" id="item4">
+					<img src="img/portfolio/4.jpg" alt="">
+					<span class="portfolio-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse aut, possimus ad rem temporibus nihil aspernatur vitae? Velit sapiente cupiditate modi incidunt doloremque natus dignissimos blanditiis explicabo a, enim voluptas et nam alias repellendus consectetur repellat, non sint facere deleniti inventore. Tempora magnam eveniet unde saepe possimus sed. Aliquid a, quod optio deserunt ipsum minima consectetur vel repudiandae, reiciendis harum laboriosam. Rem maiores consectetur, eos? Molestias, praesentium, magnam. Consectetur rerum sed nam placeat sit! Quo consectetur, at cum aliquam porro.</span>
+					<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+				</div>
+			</div>
+			<div class="portfolio-item all type1 type4" style="background-image: url('img/portfolio/5.jpg');">
+				<div class="hidden">
+					<div class="item-disc-wrap">
+						<h4 class="h4">Claritas Est Processus</h4>
+						<div class="item-disc">Graphic Desginer. Photoshop</div>
+					</div>
+					<div class="buttons">
+						<div data-mfp-src="#item5" class="circle-btn search-btn open-popup-link">
+							<div class="hover-pulse"></div>
+						</div>
+						<div class="circle-btn chain-btn">
+							<div class="hover-pulse"></div>
+						</div>
+					</div>
+				</div>
+				<div class="mfp-hide white-popup" id="item5">
+					<img src="img/portfolio/5.jpg" alt="">
+					<span class="portfolio-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse aut, possimus ad rem temporibus nihil aspernatur vitae? Velit sapiente cupiditate modi incidunt doloremque natus dignissimos blanditiis explicabo a, enim voluptas et nam alias repellendus consectetur repellat, non sint facere deleniti inventore. Tempora magnam eveniet unde saepe possimus sed. Aliquid a, quod optio deserunt ipsum minima consectetur vel repudiandae, reiciendis harum laboriosam. Rem maiores consectetur, eos? Molestias, praesentium, magnam. Consectetur rerum sed nam placeat sit! Quo consectetur, at cum aliquam porro.</span>
+					<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+				</div>
+			</div>
+			<div class="portfolio-item all type2 type5" style="background-image: url('img/portfolio/6.jpg');">
+				<div class="hidden">
+					<div class="item-disc-wrap">
+						<h4 class="h4">Claritas Est Processus</h4>
+						<div class="item-disc">Graphic Desginer. Photoshop</div>
+					</div>
+					<div class="buttons">
+						<div data-mfp-src="#item6" class="circle-btn search-btn open-popup-link">
+							<div class="hover-pulse"></div>
+						</div>
+						<div class="circle-btn chain-btn">
+							<div class="hover-pulse"></div>
+						</div>
+					</div>
+				</div>
+				<div class="mfp-hide white-popup" id="item6">
+					<img src="img/portfolio/6.jpg" alt="">
+					<span class="portfolio-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse aut, possimus ad rem temporibus nihil aspernatur vitae? Velit sapiente cupiditate modi incidunt doloremque natus dignissimos blanditiis explicabo a, enim voluptas et nam alias repellendus consectetur repellat, non sint facere deleniti inventore. Tempora magnam eveniet unde saepe possimus sed. Aliquid a, quod optio deserunt ipsum minima consectetur vel repudiandae, reiciendis harum laboriosam. Rem maiores consectetur, eos? Molestias, praesentium, magnam. Consectetur rerum sed nam placeat sit! Quo consectetur, at cum aliquam porro.</span>
+					<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+				</div>
+			</div>
+			<div class="portfolio-item all type3 type1" style="background-image: url('img/portfolio/7.jpg');">
+				<div class="hidden">
+					<div class="item-disc-wrap">
+						<h4 class="h4">Claritas Est Processus</h4>
+						<div class="item-disc">Graphic Desginer. Photoshop</div>
+					</div>
+					<div class="buttons">
+						<div data-mfp-src="#item7" class="circle-btn search-btn open-popup-link">
+							<div class="hover-pulse"></div>
+						</div>
+						<div class="circle-btn chain-btn">
+							<div class="hover-pulse"></div>
+						</div>
+					</div>
+				</div>
+				<div class="mfp-hide white-popup" id="item7">
+					<img src="img/portfolio/7.jpg" alt="">
+					<span class="portfolio-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse aut, possimus ad rem temporibus nihil aspernatur vitae? Velit sapiente cupiditate modi incidunt doloremque natus dignissimos blanditiis explicabo a, enim voluptas et nam alias repellendus consectetur repellat, non sint facere deleniti inventore. Tempora magnam eveniet unde saepe possimus sed. Aliquid a, quod optio deserunt ipsum minima consectetur vel repudiandae, reiciendis harum laboriosam. Rem maiores consectetur, eos? Molestias, praesentium, magnam. Consectetur rerum sed nam placeat sit! Quo consectetur, at cum aliquam porro.</span>
+					<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+				</div>
+			</div>
+			<div class="portfolio-item all type5 type6" style="background-image: url('img/portfolio/8.jpg');">
+				<div class="hidden">
+					<div class="item-disc-wrap">
+						<h4 class="h4">Claritas Est Processus</h4>
+						<div class="item-disc">Graphic Desginer. Photoshop</div>
+					</div>
+					<div class="buttons">
+						<div data-mfp-src="#item8" class="circle-btn search-btn open-popup-link">
+							<div class="hover-pulse"></div>
+						</div>
+						<div class="circle-btn chain-btn">
+							<div class="hover-pulse"></div>
+						</div>
+					</div>
+				</div>
+				<div class="mfp-hide white-popup" id="item8">
+					<img src="img/portfolio/8.jpg" alt="">
+					<span class="portfolio-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse aut, possimus ad rem temporibus nihil aspernatur vitae? Velit sapiente cupiditate modi incidunt doloremque natus dignissimos blanditiis explicabo a, enim voluptas et nam alias repellendus consectetur repellat, non sint facere deleniti inventore. Tempora magnam eveniet unde saepe possimus sed. Aliquid a, quod optio deserunt ipsum minima consectetur vel repudiandae, reiciendis harum laboriosam. Rem maiores consectetur, eos? Molestias, praesentium, magnam. Consectetur rerum sed nam placeat sit! Quo consectetur, at cum aliquam porro.</span>
+					<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+				</div>
+			</div>
+			<div class="portfolio-item all type4 type2" style="background-image: url('img/portfolio/9.jpg');">
+				<div class="hidden">
+					<div class="item-disc-wrap">
+						<h4 class="h4">Claritas Est Processus</h4>
+						<div class="item-disc">Graphic Desginer. Photoshop</div>
+					</div>
+					<div class="buttons">
+						<div data-mfp-src="#item9" class="circle-btn search-btn open-popup-link">
+							<div class="hover-pulse"></div>
+						</div>
+						<div class="circle-btn chain-btn">
+							<div class="hover-pulse"></div>
+						</div>
+					</div>
+				</div>
+				<div class="mfp-hide white-popup" id="item9">
+					<img src="img/portfolio/9.jpg" alt="">
+					<span class="portfolio-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse aut, possimus ad rem temporibus nihil aspernatur vitae? Velit sapiente cupiditate modi incidunt doloremque natus dignissimos blanditiis explicabo a, enim voluptas et nam alias repellendus consectetur repellat, non sint facere deleniti inventore. Tempora magnam eveniet unde saepe possimus sed. Aliquid a, quod optio deserunt ipsum minima consectetur vel repudiandae, reiciendis harum laboriosam. Rem maiores consectetur, eos? Molestias, praesentium, magnam. Consectetur rerum sed nam placeat sit! Quo consectetur, at cum aliquam porro.</span>
+					<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+				</div>
+			</div>
+			<div class="portfolio-item all type1 type6"" style="background-image: url('img/portfolio/10.jpg');">
+				<div class="hidden">
+					<div class="item-disc-wrap">
+						<h4 class="h4">Claritas Est Processus</h4>
+						<div class="item-disc">Graphic Desginer. Photoshop</div>
+					</div>
+					<div class="buttons">
+						<div data-mfp-src="#item10" class="circle-btn search-btn open-popup-link">
+							<div class="hover-pulse"></div>
+						</div>
+						<div class="circle-btn chain-btn">
+							<div class="hover-pulse"></div>
+						</div>
+					</div>
+				</div>
+				<div class="mfp-hide white-popup" id="item10">
+					<img src="img/portfolio/10.jpg" alt="">
+					<span class="portfolio-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse aut, possimus ad rem temporibus nihil aspernatur vitae? Velit sapiente cupiditate modi incidunt doloremque natus dignissimos blanditiis explicabo a, enim voluptas et nam alias repellendus consectetur repellat, non sint facere deleniti inventore. Tempora magnam eveniet unde saepe possimus sed. Aliquid a, quod optio deserunt ipsum minima consectetur vel repudiandae, reiciendis harum laboriosam. Rem maiores consectetur, eos? Molestias, praesentium, magnam. Consectetur rerum sed nam placeat sit! Quo consectetur, at cum aliquam porro.</span>
+					<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+				</div>
+			</div>
+		</div>
+	</div> 
+
+	<section id="about-us" class="about-us animated op">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col about-us-header red">
+					<h2 class="h2">Some Intresting Stuff About Us</h2>
+					<div class="about-us-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ut cupiditate reprehenderit nostrum veritatis dolorem!</div>
+				</div>
+			</div>
+		</div>
+		<div class="row about-us-items">
+			<div class="col-md-3 col-12 about-us-item">
+				<h2 class="h2" id="num1">0</h2>
+				<h3 class="h3">Satisfied Clients</h3>
+				<div class="about-us-item-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+			</div>
+			<div class="col-md-3 col-12 about-us-item">
+				<h2 class="h2" id="num2">0</h2>
+				<h3 class="h3">Completed Projects</h3>
+				<div class="about-us-item-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, quibusdam.</div>
+			</div>
+			<div class="col-md-3 col-12 about-us-item">
+				<h2 class="h2" id="num3">0</h2>
+				<h3 class="h3">Likes on Average</h3>
+				<div class="about-us-item-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+			</div>
+			<div class="col-md-3 col-12 about-us-item">
+				<h2 class="h2" id="num4">0</h2>
+				<h3 class="h3">We Launched</h3>
+				<div class="about-us-item-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="choose-us animated op" id="choose-us">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col choose-us-header">
+					<h3 class="h3">Why Choose Us</h3>
+					<div class="choose-us-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eaque expedita, eligendi molestias minus autem!</div>
+				</div>
+			</div>
+			<div class="row row--reverse">
+				
+				<div class="col-md-6 col-12">
+					<div class="owl-carousel" id="chooseSlider">
+						<div class="container comments">
+							<div class="comment row align-items-center">
+								<div class="col-12">
+									<img src="img/svg/loading.svg" alt="" class="loading-svg">
+								</div>
+								<div class="col-3">
+									<img src="img/reviews/1.jpg" class="img-fluid"  alt="">
+								</div>
+								<div class="col">
+									<img src="img/svg/loading.svg" alt="" class="loading-svg">
+									<h4 class="h4 link1">Jonathan Smith</h4>
+									<a href="www.themeforest.net" class="site">www.themeforest.net</a>
+									<div class="comment-disc body1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ipsa vitae iure vel officia praesentium.</div>
+								</div>
+							</div>
+							<div class="comment row align-items-center">
+								<div class="col-12">
+									<img src="img/svg/loading.svg" alt="" class="loading-svg">
+								</div>
+								<div class="col-3">
+									<img src="img/reviews/2.jpg" class="img-fluid"  alt="">
+								</div>
+								<div class="col">
+									<h4 class="h4 link2">Britney Doe</h4>
+									<a href="www.themeforest.net" class="site">www.themeforest.net</a>
+									<div class="comment-disc body2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, odio hic facilis animi mollitia repudiandae illum reiciendis, neque rerum vel.</div>
+								</div>
+							</div>
+						</div>
+						<div class="container comments">
+							<div class=" comment row align-items-center">
+								<div class="col-12">
+									<img src="img/svg/loading.svg" alt="" class="loading-svg">
+								</div>
+								<div class="col-3">
+									<img src="img/reviews/3.jpg" class="img-fluid"  alt="">
+								</div>
+								<div class="col">
+									<h4 class="h4 link1">Jonathan Smith</h4>
+									<a href="www.themeforest.net" class="site">www.themeforest.net</a>
+									<div class="comment-disc body1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ipsa vitae iure vel officia praesentium.</div>
+								</div>
+							</div>
+							<div class="comment row align-items-center">
+								<div class="col-12">
+									<img src="img/svg/loading.svg" alt="" class="loading-svg">
+								</div>
+								<div class="col-3">
+									<img src="img/reviews/4.jpg" class="img-fluid"  alt="">
+								</div>
+								<div class="col">
+									<h4 class="h4 link2">Britney Doe</h4>
+									<a href="www.themeforest.net" class="site">www.themeforest.net</a>
+									<div class="comment-disc body2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, odio hic facilis animi mollitia repudiandae illum reiciendis, neque rerum vel.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="button-group">
+						<div class="arrow-btn" id="prev"></div>
+						<div class="arrow-btn" id="next"></div>
+					</div>
+				</div>
+				<div class="col-md-6 col-12">
+					<div id="accordion" role="tablist" aria-multiselectable="true">
+						<div class="card">
+							<div class="card-header" role="tab" id="headingOne">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="collapsed">
+									<div class="row align-items-center ">
+										<div class="col">
+											<h3 class="mb-0 h3">Our Solution</h3>
+											<span>
+												Lorem ipsum dolor sit amet, consectetur.
+											</span>
+										</div>
+										<div class="col-1">
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+								<div class="card-block">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" role="tab" id="headingOne">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed">
+									<div class="row align-items-center ">
+										<div class="col">
+											<h3 class="mb-0 h3">Our Mission</h3>
+											<span>
+												Lorem ipsum dolor sit amet.
+											</span>
+										</div>
+										<div class="col-1">
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+								<div class="card-block">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" role="tab" id="headingOne">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									<div class="row align-items-center ">
+										<div class="col">
+											<h3 class="mb-0 h3">Our Technology</h3>
+											<span>
+												Lorem ipsum dolor sit.
+											</span>
+										</div>
+										<div class="col-1">
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="collapseThree" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+								<div class="card-block">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" role="tab" id="headingOne">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="collapsed">
+									<div class="row align-items-center ">
+										<div class="col">
+											<h3 class="mb-0 h3">Our Specification</h3>
+											<span>
+												Consectetuer adipiscing sed diam nonummy
+											</span>
+										</div>
+										<div class="col-1">
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+								<div class="card-block">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="reviews animated op" id="reviews">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-12">
+					<h2 class="h2">What People Say About Us</h2>
+					<div class="reviews-body owl-carousel" id="reviewSlider">
+						<div class="review-item">
+							<div class="reviews-content">This is an excellent theme with great features, documentation, and support. Its creators have done an excellent job and should be proud of their work.</div>
+							<div class="reviews-img"><img src="img/reviews/1.jpg" alt=""></div>
+							<div class="reviews-name">Wildwire</div>
+							<a href="themforest.net" class="reviews-link">themforest.net</a>
+						</div>
+						<div class="review-item">
+							<div class="reviews-content">This is an excellent theme with great features, documentation, and support. Its creators have done an excellent job and should be proud of their work.</div>
+							<div class="reviews-img"><img src="img/reviews/2.jpg" alt=""></div>
+							<div class="reviews-name">Wildwire</div>
+							<a href="themforest.net" class="reviews-link">themforest.net</a>
+						</div>
+						<div class="review-item">
+							<div class="reviews-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus esse, quia impedit ea tempora at, quidem sed, dolore in maxime neque corporis rem. Sint natus facilis laboriosam voluptate. Asperiores vel voluptatibus nostrum magni maxime atque saepe doloribus impedit totam odio.</div>
+							<div class="reviews-img"><img src="img/reviews/3.jpg" alt=""></div>
+							<div class="reviews-name">Wildwire</div>
+							<a href="themforest.net" class="reviews-link">themforest.net</a>
+						</div>
+						<div class="review-item">
+							<div class="reviews-content">This is an excellent theme with great features, documentation, and support. Its creators have done an excellent job and should be proud of their work.</div>
+							<div class="reviews-img"><img src="img/reviews/4.jpg" alt=""></div>
+							<div class="reviews-name">Wildwire</div>
+							<a href="themforest.net" class="reviews-link">themforest.net</a>
+						</div>
+					</div>
+				</div>
+				<div class="arrow-btn-p" id="prev"></div>
+				<div class="arrow-btn-p" id="next"></div>
+			</div>
+		</div>
+	</section>
+
+	<section id="blog-posts" class="blog-posts animated op">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col about-us-header">
+					<h3 class="h3">Latest Blog Posts</h3>
+					<div class="about-us-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil vel, veniam reiciendis necessitatibus, explicabo quo, saepe sequi deserunt blanditiis a dignissimos? Repudiandae consectetur vero vitae modi ea, similique ipsa magnam.</div>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-around blogs owl-theme owl-carousel" id="blogSlider">
+			<div class="col blog item">
+				<div class="row">
+					<div class="col-6 blog-img" style="background-image: url('img/blog/1.jpg');">
+						<div class="hidden">
+							<div class="buttons">
+								<div data-mfp-src="#post1" class="circle-btn search-btn open-popup-link">
+									<div class="hover-pulse"></div>
+								</div>
+								<div class="circle-btn chain-btn">
+									<div class="hover-pulse"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 blog-wrap">
+						<div class="blog-data">04 February 2015 / 26 Comments</div>
+						<h4 class="h4">Claritas est processus dynamicus mutationem</h4>
+						<div class="blog-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae fuga esse, repellat ipsa ab provident.</div>
+						<a href="#" class="read-more">Read More</a>
+					</div>
+				</div>
+				<div class="mfp-hide white-popup" id="post1">
+					<img src="img/blog/1.jpg" alt="">
+					<span class="portfolio-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur facere reiciendis a, ratione molestiae eum totam voluptatem voluptate corrupti, enim eos! Dignissimos aperiam, tempore facilis neque dicta, explicabo numquam doloribus eveniet harum amet illo fugiat asperiores in voluptatem sunt rerum soluta et unde aliquam modi ducimus laboriosam tenetur deserunt. Similique.</span>
+				</div>
+			</div>
+			<div class="col blog item">
+				<div class="row">
+					<div class="col-6 blog-img" style="background-image: url('img/blog/2.jpg');">
+						<div class="hidden">
+							<div class="buttons">
+								<div data-mfp-src="#post2" class="circle-btn search-btn open-popup-link">
+									<div class="hover-pulse"></div>
+								</div>
+								<div class="circle-btn chain-btn">
+									<div class="hover-pulse"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 blog-wrap">
+						<div class="blog-data">28 January 2015 / No Comments</div>
+						<h4 class="h4">Eodem modo, typi, qui nunc nbis videntur parum</h4>
+						<div class="blog-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae fuga esse, repellat ipsa ab provident.</div>
+						<a href="#" class="read-more">Read More</a>
+					</div>
+				</div>
+				<div class="mfp-hide white-popup" id="post2">
+					<img src="img/blog/2.jpg" alt="">
+					<span class="portfolio-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur facere reiciendis a, ratione molestiae eum totam voluptatem voluptate corrupti, enim eos! Dignissimos aperiam, tempore facilis neque dicta, explicabo numquam doloribus eveniet harum amet illo fugiat asperiores in voluptatem sunt rerum soluta et unde aliquam modi ducimus laboriosam tenetur deserunt. Similique.</span>
+				</div>
+			</div>
+			<div class="col blog item">
+				<div class="row">
+					<div class="col-6 blog-img" style="background-image: url('img/blog/3.jpg');">
+						<div class="hidden">
+							<div class="buttons">
+								<div data-mfp-src="#post3" class="circle-btn search-btn open-popup-link">
+									<div class="hover-pulse"></div>
+								</div>
+								<div class="circle-btn chain-btn">
+									<div class="hover-pulse"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 blog-wrap">
+						<div class="blog-data">28 January 2015 / No Comments</div>
+						<h4 class="h4">Eodem modo, typi, qui nunc nbis videntur parum</h4>
+						<div class="blog-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae fuga esse, repellat ipsa ab provident.</div>
+						<a href="#" class="read-more">Read More</a>
+					</div>
+				</div>
+				<div class="mfp-hide white-popup" id="post3">
+					<img src="img/blog/3.jpg" alt="">
+					<span class="portfolio-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur facere reiciendis a, ratione molestiae eum totam voluptatem voluptate corrupti, enim eos! Dignissimos aperiam, tempore facilis neque dicta, explicabo numquam doloribus eveniet harum amet illo fugiat asperiores in voluptatem sunt rerum soluta et unde aliquam modi ducimus laboriosam tenetur deserunt. Similique.</span>
+				</div>
+			</div>
+			<div class="col blog item">
+				<div class="row">
+					<div class="col-6 blog-img" style="background-image: url('img/blog/4.jpg');">
+						<div class="hidden">
+							<div class="buttons">
+								<div data-mfp-src="#post4" class="circle-btn search-btn open-popup-link">
+									<div class="hover-pulse"></div>
+								</div>
+								<div class="circle-btn chain-btn">
+									<div class="hover-pulse"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 blog-wrap">
+						<div class="blog-data">28 January 2015 / No Comments</div>
+						<h4 class="h4">Eodem modo, typi, qui nunc nbis videntur parum</h4>
+						<div class="blog-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae fuga esse, repellat ipsa ab provident.</div>
+						<a href="#" class="read-more">Read More</a>
+					</div>
+				</div>
+				<div class="mfp-hide white-popup" id="post4">
+					<img src="img/blog/4.jpg" alt="">
+					<span class="portfolio-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur facere reiciendis a, ratione molestiae eum totam voluptatem voluptate corrupti, enim eos! Dignissimos aperiam, tempore facilis neque dicta, explicabo numquam doloribus eveniet harum amet illo fugiat asperiores in voluptatem sunt rerum soluta et unde aliquam modi ducimus laboriosam tenetur deserunt. Similique.</span>
+				</div>
+			</div>
+			<div class="col blog item">
+				<div class="row">
+					<div class="col-6 blog-img" style="background-image: url('img/blog/5.jpg');">
+						<div class="hidden">
+							<div class="buttons">
+								<div data-mfp-src="#post5" class="circle-btn search-btn open-popup-link">
+									<div class="hover-pulse"></div>
+								</div>
+								<div class="circle-btn chain-btn">
+									<div class="hover-pulse"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 blog-wrap">
+						<div class="blog-data">28 January 2015 / No Comments</div>
+						<h4 class="h4">Eodem modo, typi, qui nunc nbis videntur parum</h4>
+						<div class="blog-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae fuga esse, repellat ipsa ab provident.</div>
+						<a href="#" class="read-more">Read More</a>
+					</div>
+				</div>
+				<div class="mfp-hide white-popup" id="post5">
+					<img src="img/blog/5.jpg" alt="">
+					<span class="portfolio-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur facere reiciendis a, ratione molestiae eum totam voluptatem voluptate corrupti, enim eos! Dignissimos aperiam, tempore facilis neque dicta, explicabo numquam doloribus eveniet harum amet illo fugiat asperiores in voluptatem sunt rerum soluta et unde aliquam modi ducimus laboriosam tenetur deserunt. Similique.</span>
+				</div>
+			</div>
+			<div class="col blog item">
+				<div class="row">
+					<div class="col-6 blog-img" style="background-image: url('img/blog/6.jpg');">
+						<div class="hidden">
+							<div class="buttons">
+								<div data-mfp-src="#post6" class="circle-btn search-btn open-popup-link">
+									<div class="hover-pulse"></div>
+								</div>
+								<div class="circle-btn chain-btn">
+									<div class="hover-pulse"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 blog-wrap">
+						<div class="blog-data">28 January 2015 / No Comments</div>
+						<h4 class="h4">Eodem modo, typi, qui nunc nbis videntur parum</h4>
+						<div class="blog-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae fuga esse, repellat ipsa ab provident.</div>
+						<a href="#" class="read-more">Read More</a>
+					</div>
+				</div>
+				<div class="mfp-hide white-popup" id="post6">
+					<img src="img/blog/6.jpg" alt="">
+					<span class="portfolio-popup">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur facere reiciendis a, ratione molestiae eum totam voluptatem voluptate corrupti, enim eos! Dignissimos aperiam, tempore facilis neque dicta, explicabo numquam doloribus eveniet harum amet illo fugiat asperiores in voluptatem sunt rerum soluta et unde aliquam modi ducimus laboriosam tenetur deserunt. Similique.</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="theme-options" class="theme-options animated op">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col about-us-header">
+					<h3 class="h3">Many Theme Options</h3>
+					<div class="about-us-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil vel, veniam reiciendis necessitatibus, explicabo quo, saepe sequi deserunt blanditiis a dignissimos.</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col theme-options-items">
+					<div class="theme-options-item">
+						<div class="theme-options-img-wrap">
+							<div class="theme-options-img i-leaf"></div>
+							<div class="hover-pulse"></div>
+						</div>
+						<div class="theme-options-wrap">
+							<h4 class="h4">Clean Design</h4>
+							<div class="theme-options-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, porro!</div>
+						</div>
+					</div>
+					<div class="theme-options-item">
+						<div class="theme-options-img-wrap">
+							<div class="theme-options-img i-bag"></div>
+							<div class="hover-pulse"></div>
+						</div>
+						<div class="theme-options-wrap">
+							<h4 class="h4">Multipurpose</h4>
+							<div class="theme-options-disc">Lorem ipsum dolor sit amet.</div>
+						</div>
+					</div>
+					<div class="theme-options-item">
+						<div class="theme-options-img-wrap">
+							<div class="theme-options-img i-phone"></div>
+							<div class="hover-pulse"></div>
+						</div>
+						<div class="theme-options-wrap">
+							<h4 class="h4">Ultra Responsive</h4>
+							<div class="theme-options-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+						</div>
+					</div>
+					<div class="theme-options-item">
+						<div class="theme-options-img-wrap">
+							<div class="theme-options-img i-issue"></div>
+							<div class="hover-pulse"></div>
+						</div>
+						<div class="theme-options-wrap">
+							<h4 class="h4">Outline Support</h4>
+							<div class="theme-options-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quae ex.</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-7">
+					<img src="img/phones.png" class="img-fluid" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="divider" class="divider animated op">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-1 ">
+					<div class="arrow-btn-p" id="prev"></div>
+				</div>
+				<div class="col-10">
+					<div class="owl-carousel" id="dividerSlider">
+						<div class="col">
+							<img class="img-fluid" src="img/brands/1.png" alt="">
+						</div>
+						<div class="col">
+							<img class="img-fluid" src="img/brands/2.png" alt="">
+						</div>
+						<div class="col">
+							<img class="img-fluid" src="img/brands/3.png" alt="">
+						</div>
+						<div class="col">
+							<img class="img-fluid" src="img/brands/4.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="arrow-btn-p" id="next"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer id="footer" class="footer animated op">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-12">
+					<div class="footer-logo">
+						<div class="img-wrap">
+							<img src="img/icons/logo.png" alt="">
+						</div>
+						<span class="footer-logo-disc">Clean and Universal<br> PSD Template</span>
+					</div>
+					<div class="footer-logo-content">
+						<span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat claritas est etiam processus dynamicus.</span>
+						<a href="#" class="read-more">Read more</a>
+					</div>
+					<div class="newsletters">
+						<h4 class="h4">Email Newsletters:</h4>
+						<div class="input-wrap">
+							<input id="emailNews" type="text" placeholder="Email Adress">
+							<label for="emailNews"><i class="fa fa-envelope"></i></label>
+						</div>
+						<span>Privacy Policy</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-12 latest-news">
+					<h4 class="h4">Latest Blogs</h4>
+					<div class="latest-news-items">
+						<div class="latest-news-item">
+							<div class="img-wrap">
+								<div class="hidden">
+									<i class="fa fa-search"></i>
+								</div>
+								<img src="img/blog/1.jpg" alt="">
+							</div>
+							<div class="latest-news-item-disc">
+								<div class="latest-news-item-content">
+									<span>Corem ipsum dolor sit amet, consectetuer adipiscing...</span>
+								</div>
+								<div class="latest-news-item-date">
+									<span>04 February 2015</span>
+								</div>
+							</div>
+						</div>
+						<div class="latest-news-item">
+							<div class="img-wrap">
+								<div class="hidden">
+									<i class="fa fa-search"></i>
+								</div>
+								<img src="img/blog/1.jpg" alt="">
+							</div>
+							<div class="latest-news-item-disc">
+								<div class="latest-news-item-content">
+									<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quo, unde....</span>
+								</div>
+								<div class="latest-news-item-date">
+									<span>15 January 2015</span>
+								</div>
+							</div>
+						</div>
+						<div class="latest-news-item">
+							<div class="img-wrap">
+								<div class="hidden">
+									<i class="fa fa-search"></i>
+								</div>
+								<img src="img/blog/1.jpg" alt="">
+							</div>
+							<div class="latest-news-item-disc">
+								<div class="latest-news-item-content">
+									<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum....</span>
+								</div>
+								<div class="latest-news-item-date">
+									<span>02 January 2015</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-12 twitter">
+					<h4 class="h4">Twitter Widget</h4>
+					<div class="latest-news-items">
+						<div class="latest-news-item">
+							<div class="icon-wrap">
+								<i class="fa fa-twitter"></i>
+							</div>
+							<div class="latest-news-item-disc">
+								<div class="latest-news-item-content">
+									<span>Corem ipsum dolor sit amet, consectetuer adipiscing...</span>
+								</div>
+								<div class="latest-news-item-date">
+									<span>30 seconds ago</span>
+								</div>
+							</div>
+						</div>
+						<div class="latest-news-item">
+							<div class="icon-wrap">
+								<i class="fa fa-twitter"></i>
+							</div>
+							<div class="latest-news-item-disc">
+								<div class="latest-news-item-content">
+									<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+								</div>
+								<div class="latest-news-item-date">
+									<span>8 month ago</span>
+								</div>
+							</div>
+						</div>
+						<div class="latest-news-item">
+							<div class="icon-wrap">
+								<i class="fa fa-twitter"></i>
+							</div>
+							<div class="latest-news-item-disc">
+								<div class="latest-news-item-content">
+									<span>Lorem ipsum dolor sit amet.</span>
+								</div>
+								<div class="latest-news-item-date">
+									<span>2 years ago</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-12 get-in">
+					<h4 class="h4">Get in touch</h4>
+					<div class="latest-news-items">
+						<div class="latest-news-item">
+							<span>Adress:</span>
+							<div class="latest-news-item-disc">
+								<div class="latest-news-item-content">
+									<span>795 South Park Avenue, Door 6 Wonderland, CA 94107, Australia</span>
+								</div>
+							</div>
+						</div>
+						<div class="latest-news-item">
+							<span>Phone:</span>
+							<div class="latest-news-item-disc">
+								<div class="latest-news-item-content">
+									<span>+440 56789223</span>
+									<span class="footer-gray">- Office<br></span>
+									<span>+440 56789223</span>
+									<span class="footer-gray">- Fax</span>
+								</div>
+							</div>
+						</div>
+						<div class="latest-news-item">
+							<span>Email:</span>
+							<div class="latest-news-item-disc">
+								<div class="latest-news-item-content">
+									<a href="#" class="footer-email">support@min-soft.ru</a>
+									<a href="#" class="footer-email"><br>info@min-soft.ru</a>
+								</div>
+							</div>
+						</div>
+						<div class="latest-news-icons">
+							<span>Follow Us:</span>
+							<div class="latest-news-item-disc">
+								<div class="latest-news-item-content">
+									<a href="#"><i class="fa fa-facebook-square"></i></a>
+									<a href="#"><i class="fa fa-twitter-square"></i></a>
+									<a href="#"><i class="fa fa-linkedin-square"></i></a>
+									<a href="#"><i class="fa fa-google-plus-square"></i></a>
+									<a href="#"><i class="fa fa-tumblr-square"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="bottom-footer animated op" id="bFooter">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col copy">
+					<span>&copy; 2017 exe. Designed by <a href="#">ThemeFire</a></span>
+					<span>/ Only for <a href="#">Envato Market</a></span>
+				</div>
+				<div class="col">
+					<nav>
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Pages</a></li>
+							<li><a href="#">Features</a></li>
+							<li><a href="#">Portfolio</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Shop</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div> 
+
+	<script src="js/libs.js" defer></script>
+	<script src="js/main.js" defer></script>
+</body>
+</html>
